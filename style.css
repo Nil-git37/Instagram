@@ -1,0 +1,76 @@
+body {
+    background-color: #fafafa;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+
+}
+
+.imagem-cel {
+    width: 450px;
+}
+
+.container {
+    border: 1px solid #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 50px;
+    margin-left: 20px;
+}
+
+input {
+    height: 36px;
+    border: 1px solid #D3D3D3;
+    border-radius: 3px;
+    margin-top: 10px;
+
+}
+
+button {
+    background-color: #0095f6;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    color: #ffffff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.facebook {
+    color: #385185;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.esqueceu-senha {
+    color: #385185;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.imagens {
+    position: relative;
+    width: 380px;
+    margin-right: 50px;
+    
+}
+
+.img-instag {
+    height: 520px;
+    position: absolute;
+    left: 153px;
+    top: 26px;
+    transition: 2s ease-in-out;
+   
+}
+
